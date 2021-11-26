@@ -44,3 +44,11 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Proxy
+
+Unable to make comment in package.json so I'm saving it here.
+
+"proxy": "http://localhost:3001"
+
+This is to change the port that the project runs on to avoid constantly having to switch everytime the project is run.

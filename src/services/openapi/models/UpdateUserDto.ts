@@ -171,7 +171,7 @@ export namespace UpdateUserDto {
         KENYA = 'Kenya',
         KIRIBATI = 'Kiribati',
         KOREA_REPUBLIC_OF = 'Korea, Republic of',
-        KOREA_DEMOCRATIC_PEOPLE_S_REPUBLIC_OF = 'Korea, Democratic People's Republic of',
+        KOREA_DEMOCRATIC_PEOPLE_S_REPUBLIC_OF = 'Korea, Democratic People\'s Republic of',
         KUWAIT = 'Kuwait',
         KYRGYZSTAN = 'Kyrgyzstan',
         LAO_PEOPLES_DEMOCRATIC_REPUBLIC = 'Lao Peoples Democratic Republic',
