@@ -1,5 +1,5 @@
 import './App.css';
-import TestOpenApi from './test-openapi/TestOpenApi';
+import TestOpenApi from './test-fetchAll/FetchUsers';
 
 function App () {
   return (

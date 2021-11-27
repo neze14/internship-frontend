@@ -1,8 +1,8 @@
-import { clear } from 'console';
+// import { clear } from 'console';
 import React, { useState, useEffect } from 'react';
 import { User, UsersService } from '../services/openapi';
 
-const TestOpenApi: React.FC = () => {
+const FetchUsers: React.FC = () => {
     const [users, setUsers] = useState<User[] | string>([]);
 
     const fetchUsers = async () => {
@@ -19,7 +19,7 @@ const TestOpenApi: React.FC = () => {
     })
 
     return (
-        <div>
+        <div className="container">
             <div>
                 No of users found: {users.length}
             </div>
@@ -28,4 +28,4 @@ const TestOpenApi: React.FC = () => {
     )
 }
 
-export default TestOpenApi;
+export default FetchUsers;
