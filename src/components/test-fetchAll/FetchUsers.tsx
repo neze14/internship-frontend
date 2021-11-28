@@ -1,6 +1,7 @@
 // import { clear } from 'console';
 import React, { useState, useEffect } from 'react';
-import { User, UsersService } from '../services/openapi';
+import { User, UsersService } from '../../services/openapi';
+import { View, StyleSheet } from 'react-native';
 
 const FetchUsers: React.FC = () => {
     const [users, setUsers] = useState<User[] | string>([]);
@@ -19,13 +20,24 @@ const FetchUsers: React.FC = () => {
     })
 
     return (
-        <div className="container">
-            <div>
+        <View>
+            <View style={styles.container}>
                 No of users found: {users.length}
-            </div>
+            </View>
             {JSON.stringify(users)}
-        </div>
+        </View>
     )
-}
+};
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: 'white',
+        alignItems: 'center',
+        justifyContent: 'center',
+        width: '100%',
+        marginTop: 30
+    }
+})
 
 export default FetchUsers;
