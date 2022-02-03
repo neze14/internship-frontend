@@ -20,10 +20,12 @@ const FetchEmployess: React.FC = () => {
     })
 
     return (
-        <View>
-            <View style={styles.container}>
-                No of departments found: {employees.length}
-            </View>
+        <View style={styles.container}>
+            {employees.length}
+
+            {/*<View style={styles.container}>
+                No of employees found: {employees.length}
+            </View>*/}
             {/*JSON.stringify(employees)*/}
         </View>
     )

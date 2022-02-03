@@ -20,11 +20,13 @@ const FetchRoles: React.FC = () => {
     })
 
     return (
-        <View>
-            <View style={styles.container}>
+        <View style={styles.container}>
+            {roles.length}
+
+            {/*<View style={styles.container}>
                 No of roles found: {roles.length}
-            </View>
-            {JSON.stringify(roles)}
+            </View>*/}
+            {/*JSON.stringify(roles)*/}
         </View>
     )
 };

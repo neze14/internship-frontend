@@ -19,11 +19,14 @@ const FetchDepartments: React.FC = () => {
     })
 
     return (
-        <View>
-            <View style={styles.container}>
+        <View style={styles.container}>
+            {departments.length}
+
+            {/*<View style={styles.container}>
                 No of departments found: {departments.length}
-            </View>
-            {JSON.stringify(departments)}
+            </View>*/}
+            {/*JSON.stringify(departments)*/}
+            
         </View>
     )
 };

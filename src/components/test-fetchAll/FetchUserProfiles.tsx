@@ -20,11 +20,13 @@ const FetchUserProfiles: React.FC = () => {
     })
 
     return (
-        <View>
-            <View style={styles.container}>
+        <View style={styles.container}>
+            {userProfiles.length}
+
+            {/*<View style={styles.container}>
                 No of user-profiles found: {userProfiles.length}
-            </View>
-            {JSON.stringify(userProfiles)}
+            </View>*/}
+            {/*JSON.stringify(userProfiles)*/}
         </View>
     )
 };

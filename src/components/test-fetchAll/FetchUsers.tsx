@@ -20,11 +20,13 @@ const FetchUsers: React.FC = () => {
     })
 
     return (
-        <View>
-            <View style={styles.container}>
+        <View style={styles.container}>
+            {users.length}
+
+            {/*<View style={styles.container}>
                 No of users found: {users.length}
-            </View>
-            {JSON.stringify(users)}
+            </View>*/}
+            {/*JSON.stringify(users)*/}
         </View>
     )
 };
